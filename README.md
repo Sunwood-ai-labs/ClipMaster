@@ -23,6 +23,8 @@
 > **重要なお知らせ**
 > このリポジトリのリリースノートやREADME、コミットメッセージの多くは、[ChatGPT](https://chat.openai.com/)や[litellm](https://github.com/Namek/py-litellm)を活用して作成されています。
 
+https://github.com/user-attachments/assets/f4ddbaf7-5029-4031-ae53-9e13671420f5
+
 ## プロジェクト: ClipMaster
 
 ```plaintext
