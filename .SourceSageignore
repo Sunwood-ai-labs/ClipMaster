@@ -47,3 +47,4 @@ poetry.lock
 clip_master.egg-info
 .venv
 .github
+clip_master_toolkit.egg-info
