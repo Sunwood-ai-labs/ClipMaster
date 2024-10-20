@@ -11,9 +11,9 @@ license: mit
 ---
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/ClipMaster/refs/heads/main/docs/icon2.png" width="30%">
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/ClipMaster/main/docs/icon2.png" width="30%">
 <br>
-<h1 align="center">ClipMaster</h1>
+<h1 align="center">Clip-Master-Toolkit</h1>
 <h2 align="center">
   ～A New Frontier in Clipboard Management～
 </h2>
@@ -26,8 +26,8 @@ license: mit
   <a href="https://github.com/Sunwood-ai-labs/ClipMaster/search?l=python"><img src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/ClipMaster" alt="GitHub top language"></a>
   <a href="https://github.com/Sunwood-ai-labs/ClipMaster/releases"><img src="https://img.shields.io/github/v/release/Sunwood-ai-labs/ClipMaster?sort=semver&color=red" alt="GitHub release"></a>
   <a href="https://github.com/Sunwood-ai-labs/ClipMaster/tags"><img src="https://img.shields.io/github/v/tag/Sunwood-ai-labs/ClipMaster?color=orange" alt="GitHub tag"></a>
-  <a href="https://pypi.org/project/clip-master/"><img src="https://img.shields.io/pypi/v/clip-master.svg" alt="PyPI version"></a>
-  <a href="https://pypi.org/project/clip-master/"><img src="https://img.shields.io/pypi/dm/clip-master.svg" alt="PyPI downloads"></a>
+  <a href="https://pypi.org/project/clip-master-toolkit/"><img src="https://img.shields.io/pypi/v/clip-master-toolkit.svg" alt="PyPI version"></a>
+  <a href="https://pypi.org/project/clip-master-toolkit/"><img src="https://img.shields.io/pypi/dm/clip-master-toolkit.svg" alt="PyPI downloads"></a>
 </p>
 
 <p align="center">
@@ -44,9 +44,9 @@ license: mit
 > [!IMPORTANT]
 > このリポジトリのリリースノートやREADME、コミットメッセージの多くは、[ChatGPT](https://chat.openai.com/)や[litellm](https://github.com/BerriAI/litellm)を活用して作成されています。
 
-## 🚀 ClipMasterの概要
+## 🚀 Clip-Master-Toolkitの概要
 
-ClipMasterは、クリップボードの管理と活用を次のレベルに引き上げる革新的なアプリケーションです。PyQt6を使用したGUIインターフェースと、LiteLLMを通じて大規模言語モデル（LLM）と統合されており、日常のテキスト処理タスクをより効率的かつインテリジェントに行うことができます。バージョン0.2.2では、`setup.py`の改善による依存関係の明確化、新しいアイコンの追加、README.mdのフォーマット調整と依存関係の修正、そして英語と日本語のREADMEの更新を行いました。これにより、アプリケーションの安定性と使い勝手が向上しています。
+Clip-Master-Toolkitは、クリップボードの管理と活用を次のレベルに引き上げる革新的なアプリケーションです。PyQt6を使用したGUIインターフェースと、LiteLLMを通じて大規模言語モデル（LLM）と統合されており、日常のテキスト処理タスクをより効率的かつインテリジェントに行うことができます。バージョン0.2.3では、プロジェクト名とバージョン番号の更新、READMEファイルの画像パス修正、および英語と日本語のREADMEファイルの更新を行いました。`setup.py`の改善により依存関係の管理が明確化され、`requirements.txt`がない場合のフォールバック処理が追加されました。これにより、`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が自動的にインストールされます。これらの変更により、アプリケーションの安定性と使いやすさが向上しています。
 
 ## ✨ 主な機能
 
@@ -62,12 +62,12 @@ ClipMasterは、クリップボードの管理と活用を次のレベルに引�
 
 1. **インストール**:
    ```bash
-   pip install clip-master
+   pip install clip-master-toolkit
    ```
 
 2. **起動**:
    ```bash
-   clip-master
+   clip-master-toolkit
    ```
 
 3. **基本的な使い方**:
@@ -79,14 +79,15 @@ ClipMasterは、クリップボードの管理と活用を次のレベルに引�
 
 ## 📦 インストール手順
 
-`pip install clip-master` を実行してください。バージョンアップには `pip install --upgrade clip-master` を使用してください。
+`pip install clip-master-toolkit` を実行してください。バージョンアップには `pip install --upgrade clip-master-toolkit` を使用してください。
 
 
-## 🆕 最新情報 (バージョン 0.2.2)
+## 🆕 最新情報 (バージョン 0.2.3)
 
-- 🎉 新しいアイコンを追加しました。
-- 🚀 `setup.py`の改善と依存関係の明示的定義を行いました。`requirements.txt`が存在しない場合のフォールバック処理を追加しました。これにより、`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が依存関係として自動的にインストールされます。
-- 🚀 `README.md`のフォーマット調整と依存関係の修正を行いました。
+- 🚀 プロジェクト名が`clip_master`から`clip-master-toolkit`に変更されました。CLIコマンドも`clip-master`から`clip-master-toolkit`に変更されました。既存のスクリプトや自動化タスクを更新する必要があります。
+- 🚀 `setup.py`の改善と依存関係の明示的定義(commit: c65813b)を行いました。`requirements.txt`がない場合のフォールバック処理が追加されました。これにより、`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が依存関係として自動的にインストールされます。
+- 🚀 README.mdのフォーマット調整と依存関係の修正(commit: 03894c1, commit: ec3a80b, commit: d8fbc09)を行いました。
+- 🚀 プロジェクト名とバージョン番号の更新(commit: c65813b)を行いました。
 
 
 ## 📄 ライセンス
@@ -109,5 +110,5 @@ Maki、iris-s-coon
 ---
 
 <p align="center">
-  ClipMasterで、あなたのクリップボード体験を革新しましょう！🚀✨
+  Clip-Master-Toolkitで、あなたのクリップボード体験を革新しましょう！🚀✨
 </p>

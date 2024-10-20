@@ -31,7 +31,7 @@ else:
     
 setup(
     name="clip-master-toolkit",
-    version="0.2.4",
+    version="0.2.5",
     author="Sunwood-ai-labs",
     author_email="sunwood.ai.labs@gmail.com",
     description="A comprehensive clipboard management toolkit with GUI and CLI interfaces",
@@ -46,7 +46,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "clip-master-toolkit=clip_master_toolkit.cli:main",
+            "clip-master-toolkit=clip_master.cli:main",
         ],
     },
     classifiers=[
