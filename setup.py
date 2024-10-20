@@ -10,7 +10,7 @@ setup(
     name="clip_master",
     version="0.2.1",
     author="Sunwood-ai-labs",
-    author_email="your.email@example.com",
+    author_email="	sunwood.ai.labs@gmail.com",
     description="A clipboard management tool with GUI and CLI interfaces",
     long_description=long_description,
     long_description_content_type="text/markdown",
