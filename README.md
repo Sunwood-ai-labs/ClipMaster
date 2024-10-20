@@ -46,7 +46,7 @@ license: mit
 
 ## 🚀 Clip-Master-Toolkitの概要
 
-Clip-Master-Toolkitは、クリップボードの管理と活用を次のレベルに引き上げる革新的なアプリケーションです。PyQt6を使用したGUIインターフェースと、LiteLLMを通じて大規模言語モデル（LLM）と統合されており、日常のテキスト処理タスクをより効率的かつインテリジェントに行うことができます。バージョン0.2.4では、パッケージバージョンとPyPI公開ワークフローの更新、READMEファイルの調整を行いました。プロジェクト名が`clip_master`から`clip-master-toolkit`に変更されたため、既存のスクリプトや自動化タスクの更新が必要です。  英語と日本語のREADMEも更新されています。`setup.py`の改善により依存関係の管理が明確化され、`requirements.txt`がない場合のフォールバック処理が追加されました。これにより、`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が自動的にインストールされます。
+Clip-Master-Toolkitは、クリップボードの管理と活用を次のレベルに引き上げる革新的なアプリケーションです。PyQt6を使用したGUIインターフェースと、LiteLLMを通じて大規模言語モデル（LLM）と統合されており、日常のテキスト処理タスクをより効率的かつインテリジェントに行うことができます。バージョン 0.2.5 では、バージョン番号とCLIエントリポイントの修正、ビルドファイルの更新、READMEファイルの更新を行いました。パッケージ構造の変更に伴い、CLIエントリポイントのパスが変更されています。
 
 
 ## ✨ 主な機能
@@ -83,13 +83,12 @@ Clip-Master-Toolkitは、クリップボードの管理と活用を次のレベ�
 `pip install clip-master-toolkit` を実行してください。バージョンアップには `pip install --upgrade clip-master-toolkit` を使用してください。
 
 
-## 🆕 最新情報 (バージョン 0.2.4)
+## 🆕 最新情報 (バージョン 0.2.5)
 
-- 🚀 プロジェクト名が`clip_master`から`clip-master-toolkit`に変更されました。CLIコマンドも`clip-master`から`clip-master-toolkit`に変更されました。既存のスクリプトや自動化タスクを更新する必要があります。
-- 🚀 パッケージバージョンを`0.2.3`から`0.2.4`に更新しました。README.mdファイルの先頭のYAMLフロントマターを削除し、整形しました。README.mdの余分な空行を削除し、可読性を向上させました。README.mdの処理強化のため`re`モジュールを追加しました。
-- 🚀 PyPIパッケージ名を`clip-master`から`clip-master-toolkit`に変更しました。
-- 🚀 README.mdファイル内の画像パスを修正しました。
-- 🚀 `setup.py`の改善により、依存関係の管理が明確化され、`requirements.txt`が存在しない場合のフォールバック処理が追加されました。`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が自動的にインストールされます。
+- ビルドファイルの更新：不要なファイルがバージョン管理システムに含まれるのを防ぐため、`clip_master_toolkit.egg-info` を `.SourceSageignore` に追加しました。
+- `setup.py`の改善：依存関係の管理が明確化され、`requirements.txt`がない場合のフォールバック処理が追加されました。これにより、`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が自動的にインストールされます。
+- CLIエントリポイントの変更：パッケージ構造の変更に伴い、CLIエントリポイントのパスが `clip_master_toolkit.cli:main` から `clip_master.cli:main` に変更されました。既存のスクリプトや自動化タスクを更新する必要がある可能性があります。
+- READMEファイルの更新：英語と日本語のREADMEファイルが更新されました。
 
 
 ## 📄 ライセンス
