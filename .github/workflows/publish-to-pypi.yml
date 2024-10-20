@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: pypi
-      url: https://pypi.org/p/clip-master
+      url: https://pypi.org/p/clip-master-toolkit
     permissions:
       id-token: write
     steps:
