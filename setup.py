@@ -8,8 +8,8 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="clip_master",
-    version="0.1.0",
-    author="Your Name",
+    version="0.2.1",
+    author="Sunwood-ai-labs",
     author_email="your.email@example.com",
     description="A clipboard management tool with GUI and CLI interfaces",
     long_description=long_description,
