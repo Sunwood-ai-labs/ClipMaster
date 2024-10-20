@@ -1,3 +1,15 @@
+---
+title: ClipMaster
+emoji: 🌖
+colorFrom: pink
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.39.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 <p align="center">
 <img src="icon2.png" width="30%">
 <br>
@@ -30,17 +42,18 @@
 </p>
 
 > [!IMPORTANT]
-> This repository's release notes, README, and many commit messages were created using [ChatGPT](https://chat.openai.com/) and [litellm](https://github.com/BerriAI/litellm).
+> Many of this repository's release notes, README, and commit messages were created using [ChatGPT](https://chat.openai.com/) and [litellm](https://github.com/BerriAI/litellm).
+
 
 ## 🌟 Welcome to ClipMaster!
 
-ClipMaster is an innovative application that takes clipboard management and utilization to the next level.  With a GUI interface built using PyQt6 and integration with large language models (LLMs) via LiteLLM, it allows you to perform everyday text processing tasks more efficiently and intelligently.
+ClipMaster is an innovative application that takes clipboard management and utilization to the next level.  With a PyQt6-based GUI interface and integration with large language models (LLMs) via LiteLLM, it allows you to perform everyday text processing tasks more efficiently and intelligently.
 
 ## 🚀 Key Features
 
 1. **Clipboard History Management**: Saves previously copied text as a history for easy access and reuse.
 2. **LLM Integration**: Processes clipboard contents using various language models through LiteLLM.
-3. **Customizable GUI**: An intuitive and user-friendly interface built with PyQt6.
+3. **Customizable GUI**: Intuitive and user-friendly interface built with PyQt6.
 4. **Flexible Model Selection**: Allows you to freely specify the LLM model to use.
 5. **Export/Import Functionality**: Enables backup and restoration of clipboard history.
 
@@ -58,7 +71,7 @@ ClipMaster is an innovative application that takes clipboard management and util
 
 3. **Basic Usage**:
    - Clipboard contents are automatically displayed.
-   - Click the "Process with LLM" button to process text using an LLM.
+   - Click the "Process with LLM" button to process the text using an LLM.
    - Select past clipboard entries from the sidebar to reuse them.
 
 ## 📚 Project Structure
@@ -101,3 +114,4 @@ For questions or suggestions, please open a [Github issue](https://github.com/Su
 <p align="center">
   Revolutionize your clipboard experience with ClipMaster! 🚀✨
 </p>
+```
