@@ -5,7 +5,8 @@ import os
 
 class Settings(BaseSettings):
     # 既存の設定
-    LITELLM_MODEL: str = "gemini/gemini-1.5-flash"
+    # LITELLM_MODEL: str = "gemini/gemini-1.5-flash-exp-0827"
+    LITELLM_MODEL: str = "gemini/gemini-1.5-flash-002"
     GITHUB_TOKEN: str = Field(..., env="GITHUB_TOKEN")
     GITHUB_REPOSITORY: str = Field(..., env="GITHUB_REPOSITORY")
     ISSUE_NUMBER: int = Field(0, env="ISSUE_NUMBER")
