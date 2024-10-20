@@ -2,3 +2,4 @@ PyQt6
 pyperclip
 litellm
 qt-material
+loguru
