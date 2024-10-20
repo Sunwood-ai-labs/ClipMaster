@@ -11,7 +11,7 @@ license: mit
 ---
 
 <p align="center">
-<img src="icon2.png" width="30%">
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/ClipMaster/refs/heads/main/docs/icon2.png" width="30%">
 <br>
 <h1 align="center">ClipMaster</h1>
 <h2 align="center">
