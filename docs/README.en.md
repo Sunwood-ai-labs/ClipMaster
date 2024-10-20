@@ -15,7 +15,7 @@ license: mit
 <br>
 <h1 align="center">ClipMaster</h1>
 <h2 align="center">
-  ～A New Frontier in Clipboard Management～
+  A New Frontier in Clipboard Management
 </h2>
 
 <p align="center">
@@ -38,26 +38,26 @@ license: mit
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   <img src="https://img.shields.io/badge/pip-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="pip">
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown">
-
 </p>
 
 > [!IMPORTANT]
-> Many of this repository's release notes, README, and commit messages were created using [ChatGPT](https://chat.openai.com/) and [litellm](https://github.com/BerriAI/litellm).
+> This repository's release notes, README, and many commit messages were created using [ChatGPT](https://chat.openai.com/) and [litellm](https://github.com/BerriAI/litellm).
+
+## 🚀 ClipMaster Overview
+
+ClipMaster is an innovative application that takes clipboard management and utilization to the next level.  With a GUI interface built using PyQt6 and integration with large language models (LLMs) through LiteLLM, it makes everyday text processing tasks more efficient and intelligent. Version 0.2.1 includes added functionality to display README.md in a Streamlit app, clarified app overview via added metadata to the README file, and several bug fixes and improvements. Please note that the PyPI package name has been changed to `clip-master`.
+
+## ✨ Key Features
+
+- **Clipboard History Management:** Saves previously copied text as a history for easy access and reuse.
+- **LLM Integration:** Uses LiteLLM to process clipboard content with various language models.
+- **Customizable GUI:** An intuitive and user-friendly interface built with PyQt6.
+- **Flexible Model Selection:** Allows you to freely specify the LLM model to use.
+- **Export/Import Functionality:** Enables backup and restoration of clipboard history.
+- **README Display in Streamlit App:** View the README content directly within the Streamlit app.
 
 
-## 🌟 Welcome to ClipMaster!
-
-ClipMaster is an innovative application that takes clipboard management and utilization to the next level.  With a PyQt6-based GUI interface and integration with large language models (LLMs) via LiteLLM, it allows you to perform everyday text processing tasks more efficiently and intelligently.
-
-## 🚀 Key Features
-
-1. **Clipboard History Management**: Saves previously copied text as a history for easy access and reuse.
-2. **LLM Integration**: Processes clipboard contents using various language models through LiteLLM.
-3. **Customizable GUI**: Intuitive and user-friendly interface built with PyQt6.
-4. **Flexible Model Selection**: Allows you to freely specify the LLM model to use.
-5. **Export/Import Functionality**: Enables backup and restoration of clipboard history.
-
-## 🛠️ Installation and Usage
+## 🔧 How to Use
 
 1. **Installation**:
    ```bash
@@ -66,52 +66,48 @@ ClipMaster is an innovative application that takes clipboard management and util
 
 2. **Launch**:
    ```bash
-   clip_master
+   clip-master
    ```
 
 3. **Basic Usage**:
-   - Clipboard contents are automatically displayed.
-   - Click the "Process with LLM" button to process the text using an LLM.
-   - Select past clipboard entries from the sidebar to reuse them.
+   - Clipboard content is automatically displayed.
+   - Click the "Process with LLM" button to process text using an LLM.
+   - Select past clipboard content from the sidebar to reuse it.
+   - Run the Streamlit app to view the README.md content.
 
-## 📚 Project Structure
 
-```
-clip_master/
-├── __init__.py
-├── __main__.py
-├── cli.py
-├── config.py
-├── core.py
-├── gui.py
-├── utils.py
-├── workers.py
-└── resources/
-    └── icon2.png
-```
+## 📦 Installation Instructions
 
-## 🤝 Contributions
+Run `pip install clip-master`. For updates, use `pip install --upgrade clip-master`.
 
-Contributions of all kinds are welcome, including pull requests, issues, and feature suggestions.  Please open an issue to discuss before making significant changes.
+
+## 🆕 What's New
+
+- Added functionality to display README.md in the Streamlit app.
+- Updated the project email address and version number (version 0.2.1).
+- Updated the README.md to include project descriptions in both English and Japanese, clarified section headings, and used bullet points to organize the content for better readability.  The README now reflects the libraries used and automation via tools like GitHub Actions.
+- The PyPI package name has been changed to `clip-master`.
+
 
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## 🤝 Contributions
+
+Contributions of all kinds are welcome, including pull requests, issues, and feature suggestions. Please open an issue to discuss before making significant changes.
+
 ## 🙏 Acknowledgements
 
-- [PyQt6](https://www.riverbankcomputing.com/software/pyqt/) - GUI framework
-- [LiteLLM](https://github.com/BerriAI/litellm) - Provides access to various language models
-- [pyperclip](https://github.com/asweigart/pyperclip) - Clipboard manipulation library
-- [qt-material](https://github.com/UN-GCPDS/qt-material) - Material design style
+Maki, iris-s-coon
 
 ## 📬 Contact
 
-For questions or suggestions, please open a [Github issue](https://github.com/Sunwood-ai-labs/ClipMaster/issues).
+For questions or suggestions, please open a [Github issue](https://github.com/Sunwood-ai-labs/ClipMaster/issues). Email: sunwood.ai.labs@gmail.com
+
 
 ---
 
 <p align="center">
   Revolutionize your clipboard experience with ClipMaster! 🚀✨
 </p>
-```
