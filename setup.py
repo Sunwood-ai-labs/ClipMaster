@@ -14,7 +14,7 @@ setup(
     description="A clipboard management tool with GUI and CLI interfaces",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/clip_master",
+    url="https://github.com/Sunwood-ai-labs/ClipMaster",
     packages=find_packages(),
     include_package_data=True,
     package_data={
@@ -23,7 +23,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "clip_master=clip_master.cli:main",
+            "clip-master=clip_master.cli:main",
         ],
     },
     classifiers=[
