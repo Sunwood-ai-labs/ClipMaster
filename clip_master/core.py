@@ -17,6 +17,9 @@ class ClipboardViewer(QMainWindow):
         self.setAttribute(Qt.WidgetAttribute.WA_TranslucentBackground)
         self.setGeometry(100, 100, INITIAL_WINDOW_WIDTH, INITIAL_WINDOW_HEIGHT)
 
+        # Add this line to define the margin attribute
+        self.margin = 10  # リサイズ可能な境界の幅
+
         # アプリケーションアイコンの設定
         icon = QIcon(ICON_PATH)
         self.setWindowIcon(icon)
