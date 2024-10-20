@@ -46,7 +46,8 @@ license: mit
 
 ## 🚀 Clip-Master-Toolkitの概要
 
-Clip-Master-Toolkitは、クリップボードの管理と活用を次のレベルに引き上げる革新的なアプリケーションです。PyQt6を使用したGUIインターフェースと、LiteLLMを通じて大規模言語モデル（LLM）と統合されており、日常のテキスト処理タスクをより効率的かつインテリジェントに行うことができます。バージョン0.2.3では、プロジェクト名とバージョン番号の更新、READMEファイルの画像パス修正、および英語と日本語のREADMEファイルの更新を行いました。`setup.py`の改善により依存関係の管理が明確化され、`requirements.txt`がない場合のフォールバック処理が追加されました。これにより、`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が自動的にインストールされます。これらの変更により、アプリケーションの安定性と使いやすさが向上しています。
+Clip-Master-Toolkitは、クリップボードの管理と活用を次のレベルに引き上げる革新的なアプリケーションです。PyQt6を使用したGUIインターフェースと、LiteLLMを通じて大規模言語モデル（LLM）と統合されており、日常のテキスト処理タスクをより効率的かつインテリジェントに行うことができます。バージョン0.2.4では、パッケージバージョンとPyPI公開ワークフローの更新、READMEファイルの調整を行いました。プロジェクト名が`clip_master`から`clip-master-toolkit`に変更されたため、既存のスクリプトや自動化タスクの更新が必要です。  英語と日本語のREADMEも更新されています。`setup.py`の改善により依存関係の管理が明確化され、`requirements.txt`がない場合のフォールバック処理が追加されました。これにより、`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が自動的にインストールされます。
+
 
 ## ✨ 主な機能
 
@@ -82,12 +83,13 @@ Clip-Master-Toolkitは、クリップボードの管理と活用を次のレベ�
 `pip install clip-master-toolkit` を実行してください。バージョンアップには `pip install --upgrade clip-master-toolkit` を使用してください。
 
 
-## 🆕 最新情報 (バージョン 0.2.3)
+## 🆕 最新情報 (バージョン 0.2.4)
 
 - 🚀 プロジェクト名が`clip_master`から`clip-master-toolkit`に変更されました。CLIコマンドも`clip-master`から`clip-master-toolkit`に変更されました。既存のスクリプトや自動化タスクを更新する必要があります。
-- 🚀 `setup.py`の改善と依存関係の明示的定義(commit: c65813b)を行いました。`requirements.txt`がない場合のフォールバック処理が追加されました。これにより、`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が依存関係として自動的にインストールされます。
-- 🚀 README.mdのフォーマット調整と依存関係の修正(commit: 03894c1, commit: ec3a80b, commit: d8fbc09)を行いました。
-- 🚀 プロジェクト名とバージョン番号の更新(commit: c65813b)を行いました。
+- 🚀 パッケージバージョンを`0.2.3`から`0.2.4`に更新しました。README.mdファイルの先頭のYAMLフロントマターを削除し、整形しました。README.mdの余分な空行を削除し、可読性を向上させました。README.mdの処理強化のため`re`モジュールを追加しました。
+- 🚀 PyPIパッケージ名を`clip-master`から`clip-master-toolkit`に変更しました。
+- 🚀 README.mdファイル内の画像パスを修正しました。
+- 🚀 `setup.py`の改善により、依存関係の管理が明確化され、`requirements.txt`が存在しない場合のフォールバック処理が追加されました。`PyQt6`, `pyperclip`, `litellm`, `qt-material`, `loguru`が自動的にインストールされます。
 
 
 ## 📄 ライセンス
