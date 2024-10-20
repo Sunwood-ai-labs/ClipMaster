@@ -44,21 +44,23 @@ license: mit
 > [!IMPORTANT]
 > Much of this repository's release notes, README, and commit messages were created using [ChatGPT](https://chat.openai.com/) and [litellm](https://github.com/BerriAI/litellm).
 
+
 ## 🚀 Clip-Master-Toolkit Overview
 
-Clip-Master-Toolkit is an innovative application that takes clipboard management and utilization to the next level.  With a PyQt6-based GUI interface and integration with large language models (LLMs) via LiteLLM, it makes everyday text processing tasks more efficient and intelligent. Version 0.2.3 includes project name and version number updates, correction of image paths in the README file, and updates to the English and Japanese README files. Improvements to `setup.py` clarify dependency management and add fallback handling when `requirements.txt` is missing. This automatically installs `PyQt6`, `pyperclip`, `litellm`, `qt-material`, and `loguru`. These changes enhance the application's stability and ease of use.
+Clip-Master-Toolkit is an innovative application that elevates clipboard management and utilization to the next level.  With a PyQt6-based GUI interface and integration with large language models (LLMs) via LiteLLM, it makes everyday text processing tasks more efficient and intelligent. Version 0.2.4 includes updated package versioning and PyPI publishing workflows, along with README file adjustments.  The project name has changed from `clip_master` to `clip-master-toolkit`, requiring updates to existing scripts and automation tasks.  The README is also updated in both English and Japanese. Improvements to `setup.py` clarify dependency management and add fallback handling for the absence of `requirements.txt`. This automatically installs `PyQt6`, `pyperclip`, `litellm`, `qt-material`, and `loguru`.
+
 
 ## ✨ Key Features
 
-- Clipboard History Management: Saves previously copied text as a history for easy access and reuse.
-- LLM Integration: Uses LiteLLM to process clipboard contents with various language models.
-- Customizable GUI: Intuitive and user-friendly interface built with PyQt6.
-- Flexible Model Selection: Allows for freely specifying the LLM model to use.
-- Export/Import Functionality: Enables backup and restoration of clipboard history.
-- README Display in Streamlit App: Allows direct viewing of the README content within the Streamlit app.
+- **Clipboard History Management:** Saves previously copied text as a history for easy access and reuse.
+- **LLM Integration:** Uses LiteLLM to process clipboard contents with various language models.
+- **Customizable GUI:** Intuitive and user-friendly interface built with PyQt6.
+- **Flexible Model Selection:** Allows you to freely specify the LLM model to use.
+- **Export/Import Functionality:** Enables backup and restoration of clipboard history.
+- **README Display in Streamlit App:** View the README content directly within the Streamlit application.
 
 
-## 🔧 How to Use
+## 🔧 Usage
 
 1. **Installation**:
    ```bash
@@ -71,7 +73,7 @@ Clip-Master-Toolkit is an innovative application that takes clipboard management
    ```
 
 3. **Basic Usage**:
-   - Clipboard contents are automatically displayed.
+   - Clipboard contents are displayed automatically.
    - Click the "Process with LLM" button to process text with an LLM.
    - Select and reuse past clipboard contents from the sidebar.
    - Run the Streamlit app to view the contents of README.md.
@@ -79,22 +81,23 @@ Clip-Master-Toolkit is an innovative application that takes clipboard management
 
 ## 📦 Installation Instructions
 
-Run `pip install clip-master-toolkit`. For updates, use `pip install --upgrade clip-master-toolkit`.
+Run `pip install clip-master-toolkit`. For upgrades, use `pip install --upgrade clip-master-toolkit`.
 
 
-## 🆕 What's New (Version 0.2.3)
+## 🆕 What's New (Version 0.2.4)
 
-- 🚀 The project name has changed from `clip_master` to `clip-master-toolkit`. The CLI command has also changed from `clip-master` to `clip-master-toolkit`. You need to update existing scripts and automation tasks.
-- 🚀 Improved `setup.py` with explicit dependency definitions (commit: c65813b). Added fallback handling for when `requirements.txt` is missing. This automatically installs `PyQt6`, `pyperclip`, `litellm`, `qt-material`, and `loguru` as dependencies.
-- 🚀 Adjusted README.md formatting and fixed dependencies (commits: 03894c1, ec3a80b, d8fbc09).
-- 🚀 Updated the project name and version number (commit: c65813b).
+- 🚀 The project name has changed from `clip_master` to `clip-master-toolkit`. The CLI command has also changed from `clip_master` to `clip-master-toolkit`.  You need to update existing scripts and automation tasks.
+- 🚀 The package version has been updated from `0.2.3` to `0.2.4`. The YAML front matter at the beginning of the README.md file has been removed and formatted. Extra blank lines in the README.md have been removed to improve readability. The `re` module has been added to enhance README.md processing.
+- 🚀 The PyPI package name has been changed from `clip_master` to `clip-master-toolkit`.
+- 🚀 Image paths in the README.md file have been corrected.
+- 🚀 Improvements to `setup.py` clarify dependency management and add fallback handling if `requirements.txt` is missing.  `PyQt6`, `pyperclip`, `litellm`, `qt-material`, and `loguru` are automatically installed.
 
 
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+## 🤝 Contributions
 
 Contributions of all kinds are welcome, including pull requests, issues, and feature suggestions.  Please open an issue to discuss before making large changes.
 
