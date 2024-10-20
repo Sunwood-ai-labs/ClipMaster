@@ -1,3 +1,15 @@
+---
+title: ClipMaster
+emoji: 🌖
+colorFrom: pink
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.39.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 <p align="center">
 <img src="icon2.png" width="30%">
 <br>
